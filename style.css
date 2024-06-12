@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-h {
+    list-style-type: none;
+    margin-top: 0%;
+    padding: 20px;
+    background-color: #d6850c; /* Alterando para branco */
+    margin-bottom: 0%;
+    color: rgb(0, 0, 0);
+    text-align: center; /* Centralizando o texto */
+}
+
+#menu-h li {
+    display: inline;
+    margin: 0;
+    padding: 20px;
+    color: white; /* Cor do texto do menu, mantida para fins de coerência */
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #d6850c;
+    min-width: 200px;
+    padding: 5px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.link {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Cor do texto dos links */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#menu-h .dropdown span {
+    color: rgb(0, 0, 0); /* Cor do texto "contato" */
+}
+
+#welcome-message {
+    font-family: "Franklin Gothic", Arial, sans-serif;
+    font-size: 40px;
+    color:  rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 7em; /* 7 linhas abaixo do menu */
+}
